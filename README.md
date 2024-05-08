@@ -39,6 +39,47 @@ $con->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School trip</title>
     <link rel="stylesheet" href="strip.css">
+    <style>
+        .container{
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+h1,p{
+    text-align: center;
+}
+
+input, textarea{
+    width: 80%;
+    padding: 15px;
+    margin: 2px auto;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+button{
+    color: aliceblue;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+    </style>
 </head>
 <body>
     <img src="sbg.jpeg" alt="sbg">
