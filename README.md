@@ -6,8 +6,7 @@
     <title>School trip</title>
     <link rel="stylesheet" href="strip.css">
 </head>
-<body>
-    <img src="sbg.jpeg" alt="sbg">
+<body
     <div class="container">
         <h1>Welcome to the traveles</h1>
         <p>You interested in travel so fill the form</p>
