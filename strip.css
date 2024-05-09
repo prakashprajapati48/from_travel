@@ -1,0 +1,65 @@
+body{
+    background-image: url(https://assets-global.website-files.com/633ac0ec0a94952cd251fe1d/6447709d7e167095e644980d_12_daniel_can_bc-207-p-1080.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 80%;
+    padding: 15px;
+    margin: 2px auto;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+button {
+    color: aliceblue;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+
+/* @media screen and (min-width: 300px){
+    body{
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+} */
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url(https://i0.wp.com/heylifestylee.com/wp-content/uploads/2023/12/beach-sunset-thailand.jpg?w=1000&ssl=1);
+        background-repeat: no-repeat;
+        /* width: 100%; */
+        height: 900px;
+        background-size: cover;
+        z-index: -2;
+    }
+}
