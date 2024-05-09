@@ -17,7 +17,7 @@
             <input type="text" name="gender" id="gender" placeholder="Enter gender">
             <input type="email" name="email" id="email" placeholder="Enter email">
             <input type="number" name="phone" id="phone" placeholder="Enter phone">
-            <textarea name="des" id="des" cols="30" rows="10"></textarea>
+            <textarea name="des" id="des" cols="30" rows="10" placeholder= "Enter any query"></textarea>
             <button class="btn">Submit</button>
         </form>
 
