@@ -7,8 +7,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the traveles</h1>
-        <p>You interested in travel so fill the form</p>
+        <h1>Hello friends</h1>
+<!--         <p></p> -->
 
         <form action="strip.php" method="post">
             <input type="text" name="name" id="name" placeholder="Enter name">
